@@ -1,9 +1,10 @@
-# Submission timestamp: 2026-05-09T05:54:55.338Z
+# Submission timestamp: 2026-05-09T05:55:27.338Z
 
-123456class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        freq = {}        for num in nums:            freq[num] = freq.get(num)
-class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        freq = {}        for num in nums:            freq[num] = freq.get(num)
+12345678910class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        freq = {}        for num in nums:            freq[num] = freq.get(num,0) + 1        s_nums = sorted(fre)
+class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        freq = {}        for num in nums:            freq[num] = freq.get(num,0) + 1        s_nums = sorted(fre)
 class Solution:
 def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 freq = {}
 for num in nums:
-freq[num] = freq.get(num)
+freq[num] = freq.get(num,0) + 1
+s_nums = sorted(fre)
