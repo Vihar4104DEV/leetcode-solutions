@@ -1,7 +1,7 @@
-# Submission timestamp: 2026-05-09T05:37:34.326Z
+# Submission timestamp: 2026-05-09T05:54:14.335Z
 
-12345class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        for i in
-class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        for i in
+123class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        fr
+class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        fr
 class Solution:
 def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-for i in
+fr
