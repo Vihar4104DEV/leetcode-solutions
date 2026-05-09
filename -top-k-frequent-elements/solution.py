@@ -1,7 +1,8 @@
-# Submission timestamp: 2026-05-09T05:37:38.326Z
+# Submission timestamp: 2026-05-09T05:54:35.340Z
 
-12345class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        for i in range(len())
-class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        for i in range(len())
+12345class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        freq = {}        for num in num
+class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        freq = {}        for num in num
 class Solution:
 def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-for i in range(len())
+freq = {}
+for num in num
