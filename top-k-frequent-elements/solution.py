@@ -1,9 +1,7 @@
-# Submission timestamp: 2026-05-09T05:41:32.326Z
+# Submission timestamp: 2026-05-09T05:44:17.326Z
 
-1234811121317910151614576class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        ans = []        d = {}        for i in nums:            if i in d:                d[i] += 1                if d[i] == 2:            if len(ans) >= 2:                return ans            else:                d[i] = 1                    ans.append(i)        if k <=1:            return
-class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        ans = []        d = {}        for i in nums:            if i in d:                d[i] += 1                if d[i] == 2:            if len(ans) >= 2:                return ans            else:                d[i] = 1                    ans.append(i)        if k <=1:            return
-class Solution:
-def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+348111213910151614576171819        ans = []        d = {}        for i in nums:            if i in d:                d[i] += 1                if d[i] == 2:            if len(ans) >= 2:                return ans            else:                d[i] = 1                    ans.append(i)        if k <=1:            return [nums[0]]                for i in d.keys()
+ans = []        d = {}        for i in nums:            if i in d:                d[i] += 1                if d[i] == 2:            if len(ans) >= 2:                return ans            else:                d[i] = 1                    ans.append(i)        if k <=1:            return [nums[0]]                for i in d.keys()
 ans = []
 d = {}
 for i in nums:
@@ -16,4 +14,5 @@ else:
 d[i] = 1
 ans.append(i)
 if k <=1:
-return
+return [nums[0]]
+for i in d.keys()
