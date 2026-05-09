@@ -1,19 +1,10 @@
-# Submission timestamp: 2026-05-09T05:45:10.328Z
+# Submission timestamp: 2026-05-09T05:55:49.327Z
 
-8111213910151614761754321        for i in nums:            if i in d:                d[i] += 1                if d[i] == 2:            if len(ans) >= 2:                return ans            else:                d[i] = 1                    ans.append(i)            return [nums[0]]                if k <=1 and len(nums) --:        d = {}        ans = []    def topKFrequent(self, nums: List[int], k: int) -> List[int]:class Solution:
-for i in nums:            if i in d:                d[i] += 1                if d[i] == 2:            if len(ans) >= 2:                return ans            else:                d[i] = 1                    ans.append(i)            return [nums[0]]                if k <=1 and len(nums) --:        d = {}        ans = []    def topKFrequent(self, nums: List[int], k: int) -> List[int]:class Solution:
-for i in nums:
-if i in d:
-d[i] += 1
-if d[i] == 2:
-if len(ans) >= 2:
-return ans
-else:
-d[i] = 1
-ans.append(i)
-return [nums[0]]
-if k <=1 and len(nums) --:
-d = {}
-ans = []
-def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+12345678910class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        freq = {}        for num in nums:            freq[num] = freq.get(num,0) + 1        s_nums = sorted(freq, key=freq.get, revers)
+class Solution:    def topKFrequent(self, nums: List[int], k: int) -> List[int]:        freq = {}        for num in nums:            freq[num] = freq.get(num,0) + 1        s_nums = sorted(freq, key=freq.get, revers)
 class Solution:
+def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+freq = {}
+for num in nums:
+freq[num] = freq.get(num,0) + 1
+s_nums = sorted(freq, key=freq.get, revers)
