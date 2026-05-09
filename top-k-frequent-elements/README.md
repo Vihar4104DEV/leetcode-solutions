@@ -1,6 +1,6 @@
 # 
 
-**Difficulty:** Medium  
+**Difficulty:** Not available  
 **LeetCode:** [https://leetcode.com/problems/top-k-frequent-elements/](https://leetcode.com/problems/top-k-frequent-elements/)  
 **Tags:** Not available
 
