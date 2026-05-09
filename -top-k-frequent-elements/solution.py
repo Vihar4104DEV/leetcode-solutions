@@ -1,19 +1,19 @@
-# Submission timestamp: 2026-05-09T05:45:04.335Z
+# Submission timestamp: 2026-05-09T05:48:30.329Z
 
-8111213910151614761754321        for i in nums:            if i in d:                d[i] += 1                if d[i] == 2:            if len(ans) >= 2:                return ans            else:                d[i] = 1                    ans.append(i)            return [nums[0]]                if k <=1 :        d = {}        ans = []    def topKFrequent(self, nums: List[int], k: int) -> List[int]:class Solution:
-for i in nums:            if i in d:                d[i] += 1                if d[i] == 2:            if len(ans) >= 2:                return ans            else:                d[i] = 1                    ans.append(i)            return [nums[0]]                if k <=1 :        d = {}        ans = []    def topKFrequent(self, nums: List[int], k: int) -> List[int]:class Solution:
+811121391015161476175181920421        for i in nums:            if i in d:                d[i] += 1                if d[i] == k:            if len(ans) >= k:                return ans            else:                d[i] = 1                    ans.append(i)            return [nums[0]]        print(d)        if k <=1 and len(nums) == 1:        return [max(d, key=d.get)]        return ans        d = {}
+for i in nums:            if i in d:                d[i] += 1                if d[i] == k:            if len(ans) >= k:                return ans            else:                d[i] = 1                    ans.append(i)            return [nums[0]]        print(d)        if k <=1 and len(nums) == 1:        return [max(d, key=d.get)]        return ans        d = {}
 for i in nums:
 if i in d:
 d[i] += 1
-if d[i] == 2:
-if len(ans) >= 2:
+if d[i] == k:
+if len(ans) >= k:
 return ans
 else:
 d[i] = 1
 ans.append(i)
 return [nums[0]]
-if k <=1 :
+print(d)
+if k <=1 and len(nums) == 1:
+return [max(d, key=d.get)]
+return ans
 d = {}
-ans = []
-def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-class Solution:
